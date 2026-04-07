@@ -86,7 +86,7 @@ I've already set up the project for zero-friction deployment using GitHub Action
 1.  **Push your code** to a GitHub repository.
 2.  In your repository, go to **Settings** > **Pages**.
 3.  Under **Build and deployment** > **Source**, select **GitHub Actions**.
-4.  Pushing any change to the `main` branch will now automatically build and deploy your site!
+4.  Pushing any change to the `develop` branch will now automatically build and deploy your site!
 
 The site will be live at `https://<your-username>.github.io/<your-repo-name>/`.
 
