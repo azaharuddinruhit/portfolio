@@ -83,7 +83,7 @@ const Navbar = ({ isDarkMode, toggleTheme }) => {
               return link.type === 'hash' ? (
                 <a
                   key={link.name}
-                  href={isHome ? link.path : `/${link.path}`}
+                  href={isHome ? link.path : `${import.meta.env.BASE_URL}${link.path}`}
                   className={linkClasses}
                   onClick={() => setMobileMenuOpen(false)}
                 >

@@ -35,7 +35,7 @@ const Hero = () => {
 
   const handleDownloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/resume.pdf';
+    link.href = `${import.meta.env.BASE_URL}resume.pdf`;
     link.download = 'Azaharuddin_Ruhit_Resume.pdf';
     link.click();
   };
